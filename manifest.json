@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 1,
+  "id": "idict",
+  "name": "iDICT",
+  "version": "2.0.0",
+  "wordCount": 8000,
+  "words": {
+    "path": "./words.json",
+    "bytes": 4935636,
+    "sha256": "c8f0e4112b04d2295ff6209a9c45f25db8753bcfc4fdbd8fa20056dec38f95eb"
+  },
+  "license": {
+    "name": "MIT",
+    "path": "./LICENSE"
+  },
+  "lookupSources": [
+    {
+      "id": "cambridge",
+      "name": "剑桥词典",
+      "url": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/{word}"
+    },
+    {
+      "id": "oxford",
+      "name": "牛津学习词典",
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/{word}"
+    },
+    {
+      "id": "merriam",
+      "name": "韦氏词典",
+      "url": "https://www.merriam-webster.com/dictionary/{word}"
+    },
+    {
+      "id": "collins",
+      "name": "柯林斯词典",
+      "url": "https://www.collinsdictionary.com/dictionary/english/{word}"
+    },
+    {
+      "id": "longman",
+      "name": "朗文当代英语词典",
+      "url": "https://www.ldoceonline.com/dictionary/{word}"
+    },
+    {
+      "id": "etymonline",
+      "name": "在线词源词典",
+      "url": "https://www.etymonline.com/word/{word}"
+    }
+  ],
+  "tags": [
+    "常用词",
+    "中考",
+    "高考",
+    "IELTS",
+    "TOEFL",
+    "GRE",
+    "CET-4",
+    "CET-6",
+    "考研"
+  ],
+  "attribution": "词条由本站整理、修订与维护，以本仓库数据为准。权威词典链接仅作查证入口，不代表其提供或核验了本站释义。英文释义与中文义项未逐一对齐，未补写例句。",
+  "csv": {
+    "path": "./words.csv",
+    "bytes": 2631599,
+    "sha256": "5f5c67b4bc3ae3f106dfe5fc058559514805ba029541d4357ab703b0f040dd6b",
+    "columns": [
+      "word",
+      "phonetic",
+      "partOfSpeech",
+      "meaning",
+      "level",
+      "posClass",
+      "tags",
+      "definitions",
+      "forms",
+      "collins",
+      "oxford3000",
+      "selectionRank",
+      "contemporaryRank",
+      "bncRank"
+    ]
+  },
+  "levels": [
+    "入门",
+    "基础",
+    "进阶",
+    "高阶"
+  ],
+  "posClasses": [
+    "n.",
+    "v.",
+    "a.",
+    "adv.",
+    "pron.",
+    "prep.",
+    "conj.",
+    "art.",
+    "num.",
+    "interj.",
+    "aux.",
+    "pref.",
+    "suff.",
+    "abbr.",
+    "其他"
+  ]
+}
